@@ -1,16 +1,16 @@
 a = 10
-
 print(a)
-
 a = "someString"
-
 print(a)
 
 
-d: int = 12
-
+d: str = "new value of variable"
+print(d)
+d: int = "12"
 print(d)
 
-d: str = "new value of variable d"
 
-print(d)
+# The below will not work
+# print(a + 12)
+# The below works
+print(a + str(d))
